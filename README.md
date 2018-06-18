@@ -1,2 +1,3 @@
 # DeepLearningOnJetson
-GitHub for Introduction for Beginners about Deep Learning on Jetson TX2 
+GitHub for Deep Learning on Jetson TX2.
+Please visit the wiki pages.
