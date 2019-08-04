@@ -46,8 +46,7 @@ for row in csv_reader:
         tmp3 = 'Copy '+fNo+'.jpg to /000'
         print(tmp3)
         shutil.copy('./center/'+fNo+'.jpg', '000')
-
 print('Sorting is finished. The /center including all files are moved to other directories.')
 shutil.move('center', '../driving_original/center')
-shutil.move('final_example.csv', '../driviing_original/final_example.csv')
+shutil.move('final_example.csv', '../driving_original/final_example.csv')
 csv_open.close()
